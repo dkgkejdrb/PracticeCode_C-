@@ -10,7 +10,7 @@ namespace SealedModifier
 		}
 	}
 
-	public sealed class Derived : Base // 상속
+	public class Derived : Base // public sealed class Derived : Base 이렇게 되면 상속할 수 없음
 	{
 		public override void DoSomething() // 오버라이드
 		{

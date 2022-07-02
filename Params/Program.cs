@@ -27,14 +27,6 @@ namespace Params
 			return sum;
 		}
 
-		static int Something(
-			params int[] numbers1,
-			int = 10;
-			params int[] numbers2)
-			{ 
-			}
-
-
 		static void Main(string[] args)
 		{
 			Console.WriteLine(Program.Sum1(new int[] { 1, 2, 3 }));
