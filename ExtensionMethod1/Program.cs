@@ -24,7 +24,7 @@ namespace ExtensionMethod1
 	{
 		public static string Quack(this Duck duck, int times)
 		{
-			return $"{times}번 꽨꽥 웁니다.";
+			return $"{times}번 꽥꽥 웁니다.";
 		}
 	}
 
