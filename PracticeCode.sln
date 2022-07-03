@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticClass", "StaticClass\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ternaryOperator", "ternaryOperator\ternaryOperator.csproj", "{86C2CF1F-17A8-456F-8CDD-543D444B924D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nullCoalescingOperator", "nullCoalescingOperator\nullCoalescingOperator.csproj", "{F9D7AFB4-A5B6-4872-AD70-C6D2D236B9D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nullCoalescingOperator1", "nullCoalescingOperator1\nullCoalescingOperator1.csproj", "{B8A97EE9-C2A8-4549-A8E4-B16E9D780CC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{86C2CF1F-17A8-456F-8CDD-543D444B924D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86C2CF1F-17A8-456F-8CDD-543D444B924D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86C2CF1F-17A8-456F-8CDD-543D444B924D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9D7AFB4-A5B6-4872-AD70-C6D2D236B9D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9D7AFB4-A5B6-4872-AD70-C6D2D236B9D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D7AFB4-A5B6-4872-AD70-C6D2D236B9D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9D7AFB4-A5B6-4872-AD70-C6D2D236B9D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8A97EE9-C2A8-4549-A8E4-B16E9D780CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A97EE9-C2A8-4549-A8E4-B16E9D780CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A97EE9-C2A8-4549-A8E4-B16E9D780CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A97EE9-C2A8-4549-A8E4-B16E9D780CC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
