@@ -3,25 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiers1", "AccessModifiers1\AccessModifiers1.csproj", "{9BFEB8D2-FEF7-428D-8FB5-9E8F7CAADED6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessModifiers1", "AccessModifiers1\AccessModifiers1.csproj", "{9BFEB8D2-FEF7-428D-8FB5-9E8F7CAADED6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifierAnotherAssembly", "AccessModifierAnotherAssembly\AccessModifierAnotherAssembly.csproj", "{372C8113-7037-44FF-8CAB-E7E9009FBB87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessModifierAnotherAssembly", "AccessModifierAnotherAssembly\AccessModifierAnotherAssembly.csproj", "{372C8113-7037-44FF-8CAB-E7E9009FBB87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "defaultAccessModifier", "defaultAccessModifier\defaultAccessModifier.csproj", "{3FDE3206-1377-4B81-8071-CFE1F8B2CBD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "defaultAccessModifier", "defaultAccessModifier\defaultAccessModifier.csproj", "{3FDE3206-1377-4B81-8071-CFE1F8B2CBD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SealedModifier", "SealedModifier\SealedModifier.csproj", "{A18B055A-B480-49B5-BC30-D8A993A9B55B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SealedModifier", "SealedModifier\SealedModifier.csproj", "{A18B055A-B480-49B5-BC30-D8A993A9B55B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Params", "Params\Params.csproj", "{092CB03B-C153-47CE-9621-097EF4D4591C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Params", "Params\Params.csproj", "{092CB03B-C153-47CE-9621-097EF4D4591C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Struct", "Struct\Struct.csproj", "{C5978059-EA5A-48EE-9DCF-FDA95792AB3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Struct", "Struct\Struct.csproj", "{C5978059-EA5A-48EE-9DCF-FDA95792AB3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "immutableStruct", "immutableStruct\immutableStruct.csproj", "{E104B2E1-AFCC-4135-82A0-87B33B2232DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "immutableStruct", "immutableStruct\immutableStruct.csproj", "{E104B2E1-AFCC-4135-82A0-87B33B2232DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "immutable", "immutable\immutable.csproj", "{1507772E-3F8B-4B47-B26A-8D4394D923AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "immutable", "immutable\immutable.csproj", "{1507772E-3F8B-4B47-B26A-8D4394D923AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialClass", "PartialClass\PartialClass.csproj", "{5BB305AD-9EAA-4DE4-96BE-146FF2479309}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartialClass", "PartialClass\PartialClass.csproj", "{5BB305AD-9EAA-4DE4-96BE-146FF2479309}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewOperator", "NewOperator\NewOperator.csproj", "{37FD507D-FA54-4351-9732-5646D7C51CC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewOperator", "NewOperator\NewOperator.csproj", "{37FD507D-FA54-4351-9732-5646D7C51CC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Static", "Static\Static.csproj", "{56D39C89-7E8B-4672-BDF4-790143F37FE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{37FD507D-FA54-4351-9732-5646D7C51CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37FD507D-FA54-4351-9732-5646D7C51CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37FD507D-FA54-4351-9732-5646D7C51CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56D39C89-7E8B-4672-BDF4-790143F37FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D39C89-7E8B-4672-BDF4-790143F37FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D39C89-7E8B-4672-BDF4-790143F37FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D39C89-7E8B-4672-BDF4-790143F37FE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
