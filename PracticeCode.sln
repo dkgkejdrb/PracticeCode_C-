@@ -51,7 +51,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShallowCopVSDeepCopy", "Sha
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GarbageCollector", "GarbageCollector\GarbageCollector.csproj", "{BDA52A09-DA00-4A9F-88FD-8E344086E512}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuallableType", "NuallableType\NuallableType.csproj", "{CCC1DCD5-B45B-49A9-B445-7D19C3CDD1A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NuallableType", "NuallableType\NuallableType.csproj", "{CCC1DCD5-B45B-49A9-B445-7D19C3CDD1A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Property", "Property\Property.csproj", "{575E6790-311D-419D-8ECF-4B7B50251F29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{CCC1DCD5-B45B-49A9-B445-7D19C3CDD1A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCC1DCD5-B45B-49A9-B445-7D19C3CDD1A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCC1DCD5-B45B-49A9-B445-7D19C3CDD1A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{575E6790-311D-419D-8ECF-4B7B50251F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{575E6790-311D-419D-8ECF-4B7B50251F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{575E6790-311D-419D-8ECF-4B7B50251F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{575E6790-311D-419D-8ECF-4B7B50251F29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
